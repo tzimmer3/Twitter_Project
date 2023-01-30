@@ -7,7 +7,7 @@ Created on Tue Jan 19 16:35:14 2021
 
 from tweepy import API
 from tweepy import Cursor
-from tweepy.streaming import StreamListener
+from tweepy.streaming import Stream
 from tweepy import OAuthHandler
 from tweepy import Stream
 
@@ -67,7 +67,7 @@ class TwitterStreamer():
 
 
 # # # # TWITTER STREAM LISTENER # # # #
-class TwitterListener(StreamListener):
+class TwitterListener(Stream):
     """
     This is a basic listener that just prints received tweets to stdout.
     """
