@@ -1,0 +1,13 @@
+
+
+
+Ideas of Pieces to Grab from Tweets
+
+
+'created_at'
+'user'
+'text'
+'source'
+'retweet_count'
+'favorite_count' (likes)
+

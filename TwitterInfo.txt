@@ -1,0 +1,28 @@
+
+TWITTER ACCOUNT INFO
+--------------------
+Displayname: raspberrypibot
+
+Username: @raspber28961795
+
+Password: 32woodlawn
+
+*-*-*-*-*-*-*-*-*-*
+
+APPLICATION INFO
+----------------
+
+App Name: InTheNo
+
+
+
+*-*-*-*-*-*-*-*-*-*
+
+
+API Key: vwMlW6Pi94eP9dTUIVibLRAuE
+API Secret Key:txn4xGjcbWPTWArAmWcpHLtDq8EXOLzDyA3TkCD7G32N1gXRBf
+Bearer Token: AAAAAAAAAAAAAAAAAAAAAH0dJQEAAAAAiuQUwv3MzaK13WmdyJ0vFMP25lU%3DYRz8dz7KNsfctEZS3qZfnHYXdmp6ZeoTWu85DIll2oh4piYN6R
+
+
+*-*-*-*-*-*-*-*-*-*
+
