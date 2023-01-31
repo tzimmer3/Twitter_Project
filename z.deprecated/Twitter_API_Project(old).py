@@ -6,7 +6,7 @@ from tweepy import Stream
 
 from textblob import TextBlob
 
-import twitter_credentials
+import src.twitter_credentials as twitter_credentials
 
 import matplotlib.pyplot as plt
 import numpy as np
