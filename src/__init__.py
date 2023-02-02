@@ -6,7 +6,7 @@ from src.twitter_credentials import *
 from src.tweepyminer import TwitterClient, TwitterAuthenticator, TwitterListener, TwitterStreamer
 
 # Classes for tweet cleaning
-#from src.tweepyclean import TwitterAnalyzer
+from src.tweepyclean import TweetAnalyzer
 
 # Classes for NLP and metrics
 #from src.tweepymetrics import *
