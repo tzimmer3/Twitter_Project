@@ -44,3 +44,12 @@ class TweetAnalyzer():
     def remove_stopwords(tweet, stopwords):
         tweet = [word for word in tweet if word not in stopwords]
         return tweet
+
+
+## APPENDIX
+
+"""
+# Remove stop words
+## NOT NEEDED AT THIS TIME.  Not using stopword removal.  Should work if eventually needed.
+#df['tweet_nostops'] = df['tweet'].apply(lambda x: ' '.join([word for word in x.split() if word not in (stopwords)]))
+"""
