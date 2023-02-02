@@ -9,17 +9,26 @@ import src.twitter_credentials as twitter_credentials
 
 # # # # TWITTER CLIENT # # # #
 class TwitterClient():
-    def __init__(self, twitter_user=None):
+    def __init__(self, twitter_user=None, query_term=None):
         self.auth = TwitterAuthenticator().authenticate_twitter_app()
-        self.twitter_client = API(self.auth, wait_on_rate_limit=True)
+        self.twitter_client = API(self.auth)
 
         self.twitter_user = twitter_user
+        self.query_term = query_term
 
     def get_user_timeline_tweets(self, num_tweets):
         tweets = []
-        for tweet in Cursor(self.twitter_client.user_timeline, id=self.twitter_user, wait_on_rate_limit=True, wait_on_rate_limit_notify=True).items(num_tweets):
+        for tweet in Cursor(self.twitter_client.user_timeline, id=self.twitter_user).items(num_tweets):
             tweets.append(tweet)
         return tweets
+
+    def get_query_tweets(self, num_tweets):
+        tweets = []
+        for tweet in Cursor(self.twitter_client.search_tweets, q=self.query_term).items(num_tweets):
+            tweets.append(tweet)
+        return tweets
+
+
 """
     def get_friend_list(self, num_friends):
         friend_list = []
